@@ -151,6 +151,19 @@ a:hover {
 .post-main {
   grid-column: 1 / 10;
   grid-row: 2 / 6;
+  text-align: justify;
+}
+.post-main > section {
+  padding: 0 15px;
+}
+.subscribe {
+  color: grey;
+}
+.subscribe:hover {
+  color: grey;
+}
+.blog-title {
+  margin-bottom: 0;
 }
 .post-article {
   grid-column: 10 / 13;
@@ -178,5 +191,13 @@ a:hover {
 .post-footer {
   grid-column: 1 / 13;
   grid-row: 6;
+}
+
+.blog-post-img {
+  background-image: url(https://www.carmart.ng/public/blog/wp-content/uploads/2020/08/Mercedes-Benz-X-Class-Pickup-Preview-Price-Release-Date.jpg);
+  background-size: cover;
+  width: 96%;
+  height: 600px;
+  padding: 10px;
 }
 /* BLOG POST - END */
