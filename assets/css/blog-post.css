@@ -1,0 +1,139 @@
+/* Blog Post */
+.post-content {
+  display: grid;
+  width: 100%;
+  height: auto;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 10px;
+}
+.post-content > * {
+  background-color: #262626;
+  padding: 10px 5px;
+  text-align: start;
+  border-radius: 2px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.blog-posts > div {
+  width: auto;
+  text-align: start;
+}
+.post-img {
+  width: 200px;
+}
+.blog-post-title {
+  margin: 0;
+}
+.date-type {
+  margin: 0px 0px 15px 0px;
+}
+.type {
+  color: maroon;
+  font-weight: bold;
+}
+.blog-link {
+  color: black;
+  background-color: orange;
+  border: 1px solid orange;
+  border-radius: 5px;
+  padding: 5px;
+  text-decoration: none !important;
+}
+.blog-link:hover {
+  color: orange;
+  background-color: black;
+}
+.post-header {
+  grid-column: 1 / 13;
+  grid-row: 1;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.post-header > div {
+  align-self: center;
+  padding: 0 20px;
+}
+.post-main {
+  grid-column: 1 / 10;
+  grid-row: 2 / 6;
+  text-align: justify;
+}
+.post-main > section {
+  padding: 0 15px;
+}
+.subscribe {
+  color: grey;
+}
+.subscribe:hover {
+  color: grey;
+}
+.blog-title {
+  margin-bottom: 0;
+}
+.post-article {
+  grid-column: 10 / 13;
+  grid-row: 2;
+}
+.post-article > p {
+  padding: 0px 16px;
+  text-align: justify;
+}
+.post-nav {
+  grid-column: 10 / 13;
+  grid-row: 3;
+}
+.post-nav > ul {
+  text-align: start;
+}
+.post-aside {
+  grid-column: 10 / 13;
+  grid-row: 4;
+}
+.post-aside > ul {
+  text-align: start;
+  padding: 0px 16px;
+}
+.post-footer {
+  grid-column: 1 / 13;
+  grid-row: 6;
+}
+@media (max-width: 768px) {
+  .post-header {
+    grid-column: 1 / 13;
+    grid-row: 1;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+  .post-main {
+    grid-column: 1 / 13;
+    grid-row: 3;
+    text-align: justify;
+  }
+  .post-article {
+    grid-column: 1 / 13;
+    grid-row: 2;
+  }
+  .post-nav {
+    grid-column: 1 / 7;
+    grid-row: 4;
+  }
+  .post-nav > ul {
+    text-align: start;
+  }
+  .post-aside {
+    grid-column: 7 / 13;
+    grid-row: 4;
+  }
+  .post-footer {
+    grid-column: 1 / 13;
+    grid-row: 6;
+  }
+}
+.blog-post-img {
+  background-image: url(https://www.carmart.ng/public/blog/wp-content/uploads/2020/08/Mercedes-Benz-X-Class-Pickup-Preview-Price-Release-Date.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 96%;
+  height: 600px;
+}

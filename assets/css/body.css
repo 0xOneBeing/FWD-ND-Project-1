@@ -1,0 +1,8 @@
+/* body.css */
+body {
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px unset;
+  background-color: rgb(32, 31, 32);
+  color: wheat;
+}
