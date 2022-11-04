@@ -144,6 +144,10 @@ a:hover {
   flex-wrap: nowrap;
   justify-content: space-between;
 }
+.post-header > div {
+  align-self: center;
+  padding: 0 20px;
+}
 .post-main {
   grid-column: 1 / 10;
   grid-row: 2 / 6;
