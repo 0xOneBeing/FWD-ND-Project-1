@@ -156,16 +156,20 @@ a:hover {
   padding: 0px 16px;
   text-align: justify;
 }
-.post-nav > ul {
-  text-align: start;
-}
 .post-nav {
   grid-column: 10 / 13;
   grid-row: 3 / 5;
 }
+.post-nav > ul {
+  text-align: start;
+}
 .post-aside {
   grid-column: 10 / 13;
   grid-row: 5 / 6;
+}
+.post-aside > ul {
+  text-align: start;
+  padding: 0px 16px;
 }
 .post-footer {
   grid-column: 1 / 13;
