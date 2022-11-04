@@ -196,8 +196,8 @@ a:hover {
 .blog-post-img {
   background-image: url(https://www.carmart.ng/public/blog/wp-content/uploads/2020/08/Mercedes-Benz-X-Class-Pickup-Preview-Price-Release-Date.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
   width: 96%;
   height: 600px;
-  padding: 10px;
 }
 /* BLOG POST - END */
