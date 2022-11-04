@@ -167,7 +167,7 @@ a:hover {
 }
 .post-article {
   grid-column: 10 / 13;
-  grid-row: 2 / 3;
+  grid-row: 2;
 }
 .post-article > p {
   padding: 0px 16px;
@@ -175,14 +175,14 @@ a:hover {
 }
 .post-nav {
   grid-column: 10 / 13;
-  grid-row: 3 / 5;
+  grid-row: 3;
 }
 .post-nav > ul {
   text-align: start;
 }
 .post-aside {
   grid-column: 10 / 13;
-  grid-row: 5 / 6;
+  grid-row: 4;
 }
 .post-aside > ul {
   text-align: start;
